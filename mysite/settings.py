@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-3t^*k(4^i$4guw_1c!v+v@oyblg4bvlh1fldvyx4l+y2!)+fm$
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "0.0.0.0,"
+    "*",
 ]
 
 
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "introduction"
 ]
 
 MIDDLEWARE = [
@@ -105,9 +106,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-Hans'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
