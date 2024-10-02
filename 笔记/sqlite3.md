@@ -1,5 +1,6 @@
 # 安装
 ```bash
+# ubuntu22系统
 sudo apt install sqlite3
 ```
 
